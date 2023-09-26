@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51141C4E-A907-4D8C-A717-44CE3AE5B2D3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Tugas_Besar_Kelompok_2___SI_Penjualan.My.MyApplication</StartupObject>
+    <RootNamespace>Tugas_Besar_Kelompok_2___SI_Penjualan</RootNamespace>
+    <AssemblyName>Tugas Besar Kelompok 2 - SI Penjualan</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Tugas Besar Kelompok 2 - SI Penjualan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Tugas Besar Kelompok 2 - SI Penjualan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Downloads\Tester\T\Tester\Tester\bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cetak.Designer.vb">
+      <DependentUpon>cetak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cetak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGantiPw.Designer.vb">
+      <DependentUpon>frmGantiPw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGantiPw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBarang.Designer.vb">
+      <DependentUpon>frmBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHakAkses.Designer.vb">
+      <DependentUpon>frmHakAkses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHakAkses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistoriPembelian.Designer.vb">
+      <DependentUpon>frmHistoriPembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistoriPembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistoriPenjualan.Designer.vb">
+      <DependentUpon>frmHistoriPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistoriPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKaryawan.Designer.vb">
+      <DependentUpon>frmKaryawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmKaryawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapBeli.Designer.vb">
+      <DependentUpon>frmLapBeli.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapBeli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapJual.Designer.vb">
+      <DependentUpon>frmLapJual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapJual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPelanggan.Designer.vb">
+      <DependentUpon>frmPelanggan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPelanggan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPembelian.Designer.vb">
+      <DependentUpon>frmPembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPenjualan.Designer.vb">
+      <DependentUpon>frmPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSupplier.Designer.vb">
+      <DependentUpon>frmSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lapBarang.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lapBarang.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="lapKaryawan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lapKaryawan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="lapPelanggan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lapPelanggan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="lapPenBul.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lapPenBul.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="lapPenHar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lapPenHar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="lapPenMing.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lapPenMing.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="notaBeli.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>notaBeli.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="notaJual.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>notaJual.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cetak.resx">
+      <DependentUpon>cetak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGantiPw.resx">
+      <DependentUpon>frmGantiPw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBarang.resx">
+      <DependentUpon>frmBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHakAkses.resx">
+      <DependentUpon>frmHakAkses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistoriPembelian.resx">
+      <DependentUpon>frmHistoriPembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistoriPenjualan.resx">
+      <DependentUpon>frmHistoriPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKaryawan.resx">
+      <DependentUpon>frmKaryawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLapBeli.resx">
+      <DependentUpon>frmLapBeli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLapJual.resx">
+      <DependentUpon>frmLapJual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPelanggan.resx">
+      <DependentUpon>frmPelanggan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPembelian.resx">
+      <DependentUpon>frmPembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPenjualan.resx">
+      <DependentUpon>frmPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSupplier.resx">
+      <DependentUpon>frmSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lapBarang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lapBarang.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lapKaryawan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lapKaryawan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lapPelanggan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lapPelanggan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lapPenBul.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lapPenBul.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lapPenHar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lapPenHar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lapPenMing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>lapPenMing.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notaBeli.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>notaBeli.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notaJual.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>notaJual.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\20945988.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24 3floppy_unmount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 095.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 save_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 book_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 file_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 close_002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24 close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 old-edit-undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 agt_print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 Search-Male-User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SI Penjualan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SI Penjualan 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SI Penjualan 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 cog_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 administrator_004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 user-group-new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 diagram_v2-08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 list-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 calendar_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 database_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 note_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32 preferences-contact-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 cross_circle_frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 key_002.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

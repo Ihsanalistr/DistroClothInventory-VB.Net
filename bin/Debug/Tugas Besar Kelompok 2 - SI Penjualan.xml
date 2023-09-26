@@ -1,0 +1,161 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Tugas Besar Kelompok 2 - SI Penjualan
+</name>
+</assembly>
+<members>
+<member name="T:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._16_095">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._16_cross_circle_frame">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._16_delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._16_key_002">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._20945988">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._24_3floppy_unmount">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._24_close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_administrator_004">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_agt_print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_book_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_calendar_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_close_002">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_cog_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_database_save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_diagram_v2_08">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_file_delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_list_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_note_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_old_edit_undo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_preferences_contact_list">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_save_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_Search_Male_User">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources._32_user_group_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources.log_out">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources.SI_Penjualan">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources.SI_Penjualan_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Besar_Kelompok_2___SI_Penjualan.My.Resources.Resources.SI_Penjualan_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
